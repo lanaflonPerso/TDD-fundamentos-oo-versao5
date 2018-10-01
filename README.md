@@ -30,7 +30,6 @@ Fake Objects (ou Fakers) são implementações reais e funcionais de alguma depe
 
 Fakers podem ser utilizados quando precisamos incorporar um funcionamento real de um sistema mas precisamos que ele seja controlado.
 
-<<<<<<< HEAD
 ### Limitações
 Não funciona com métodos static ou private. Lista de limitações versão 1.x:
 
@@ -51,7 +50,4 @@ Limitações da versão 2.x:
 * Cannot mock equals(), hashCode(). Firstly, you should not mock those methods. Secondly, Mockito defines and depends upon a specific implementation of these methods. Redefining them might break Mockito.
 Mocking is only possible on VMs that are supported by Objenesis. Don't worry, most VMs should work just fine.
 * Spying on real methods where real implementation references outer Class via OuterClass.this is impossible. Don't worry, this is extremely rare case.
-=======
  
-
->>>>>>> master
