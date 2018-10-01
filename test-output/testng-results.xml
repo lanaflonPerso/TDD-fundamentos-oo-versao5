@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30" started-at="2018-10-01T18:34:46Z" finished-at="2018-10-01T18:34:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30" started-at="2018-10-01T18:34:46Z" finished-at="2018-10-01T18:34:46Z">
+      <class name="com.idomine.testng.TestNGTest02">
+        <test-method status="PASS" signature="test_add(java.lang.Integer, java.lang.Integer)[pri:0, instance:com.idomine.testng.TestNGTest02@1593948d]" name="test_add" duration-ms="7" started-at="2018-10-01T18:34:46Z" data-provider="dp" finished-at="2018-10-01T18:34:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add -->
+        <test-method status="PASS" signature="test_add(java.lang.Integer, java.lang.Integer)[pri:0, instance:com.idomine.testng.TestNGTest02@1593948d]" name="test_add" duration-ms="0" started-at="2018-10-01T18:34:46Z" data-provider="dp" finished-at="2018-10-01T18:34:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add -->
+        <test-method status="PASS" signature="test_setName(java.lang.String)[pri:0, instance:com.idomine.testng.TestNGTest02@1593948d]" name="test_setName" duration-ms="1" started-at="2018-10-01T18:34:46Z" data-provider="dpName" finished-at="2018-10-01T18:34:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Utils]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_setName -->
+        <test-method status="PASS" signature="test_setName(java.lang.String)[pri:0, instance:com.idomine.testng.TestNGTest02@1593948d]" name="test_setName" duration-ms="0" started-at="2018-10-01T18:34:46Z" data-provider="dpName" finished-at="2018-10-01T18:34:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MyUtils]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_setName -->
+        <test-method status="PASS" signature="test_subtract(java.lang.Integer, java.lang.Integer)[pri:0, instance:com.idomine.testng.TestNGTest02@1593948d]" name="test_subtract" duration-ms="1" started-at="2018-10-01T18:34:46Z" data-provider="dp" finished-at="2018-10-01T18:34:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_subtract -->
+        <test-method status="PASS" signature="test_subtract(java.lang.Integer, java.lang.Integer)[pri:0, instance:com.idomine.testng.TestNGTest02@1593948d]" name="test_subtract" duration-ms="1" started-at="2018-10-01T18:34:46Z" data-provider="dp" finished-at="2018-10-01T18:34:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_subtract -->
+      </class> <!-- com.idomine.testng.TestNGTest02 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -51,3 +51,19 @@ Limitações da versão 2.x:
 Mocking is only possible on VMs that are supported by Objenesis. Don't worry, most VMs should work just fine.
 * Spying on real methods where real implementation references outer Class via OuterClass.this is impossible. Don't worry, this is extremely rare case.
  
+
+## TestNG
+
+### Maven
+```
+<dependency>
+	<groupId>org.testng</groupId>
+	<artifactId>testng</artifactId>
+	<version>6.14.3</version>
+	<scope>test</scope>
+</dependency>
+```
+
+### TestNG Eclipse Plugin
+Open Eclipse and go to Help | Eclipse Marketplace. Then search for “TestNG”. You should get following result.
+ 
